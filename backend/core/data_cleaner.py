@@ -10,18 +10,24 @@ class DataCleaner:
         target_column: str,
     ) -> tuple[pd.DataFrame, pd.Series, dict]:
 
-        cleaning_report = {}
-
-        original_rows = len(df)
+        cleaning_report = {
+            "original_rows": len(df),
+        }
 
         df = self._remove_duplicates(df)
 
-        cleaning_report["duplicates_removed"] = original_rows - len(df)
+        cleaning_report["final_rows"] = len(df)
+        cleaning_report["duplicates_removed"] = (
+            cleaning_report["original_rows"]
+            - cleaning_report["final_rows"]
+        )
 
         constant_columns = metadata["profile"]["constant_columns"]
-        cleaning_report["constant_columns_removed"] = len(constant_columns)
 
-        df = self._drop_constant_columns(df, constant_columns)
+        df = self._drop_constant_columns(
+            df,
+            constant_columns,
+        )
 
         id_columns = [
             column
@@ -29,11 +35,31 @@ class DataCleaner:
             if column != target_column
         ]
 
-        cleaning_report["id_columns_removed"] = len(id_columns)
+        df = self._drop_id_columns(
+            df,
+            id_columns,
+        )
 
-        df = self._drop_id_columns(df, id_columns)
+        cleaning_report["constant_columns"] = constant_columns
+        cleaning_report["id_columns"] = id_columns
 
-        X, y = self._split_features_target(df, target_column)
+        cleaning_report["constant_columns_removed"] = len(
+            constant_columns
+        )
+
+        cleaning_report["id_columns_removed"] = len(
+            id_columns
+        )
+
+        cleaning_report["total_columns_removed"] = (
+            len(constant_columns)
+            + len(id_columns)
+        )
+
+        X, y = self._split_features_target(
+            df,
+            target_column,
+        )
 
         return X, y, cleaning_report
 
@@ -41,7 +67,10 @@ class DataCleaner:
         self,
         df: pd.DataFrame,
     ) -> pd.DataFrame:
-        return df.drop_duplicates(ignore_index=True)
+
+        return df.drop_duplicates(
+            ignore_index=True,
+        )
 
     def _drop_constant_columns(
         self,
@@ -73,6 +102,8 @@ class DataCleaner:
 
         y = df[target_column]
 
-        X = df.drop(columns=[target_column])
+        X = df.drop(
+            columns=[target_column],
+        )
 
         return X, y
