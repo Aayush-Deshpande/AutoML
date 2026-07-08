@@ -3,6 +3,8 @@ from pathlib import Path
 import pandas as pd
 from pandas.errors import EmptyDataError, ParserError
 
+from core.dataset_profiler import DatasetProfiler
+
 
 class DatasetLoader:
 
@@ -24,9 +26,9 @@ class DatasetLoader:
             )
 
         metadata = self._extract_metadata(df)
-        profile = self._profile_dataset(df)
 
-        metadata["profile"] = profile
+        profiler = DatasetProfiler()
+        metadata["profile"] = profiler.profile(df)
 
         return df, metadata
 
@@ -66,18 +68,3 @@ class DatasetLoader:
         }
 
         return metadata
-
-    def _profile_dataset(self, df: pd.DataFrame) -> dict:
-        profile = {
-            "missing_values": df.isna().sum().to_dict(),
-            "missing_percentage": (
-                (df.isna().sum() / len(df)) * 100
-            ).round(2).to_dict(),
-            "duplicate_rows": int(df.duplicated().sum()),
-            "constant_columns": df.columns[
-                df.nunique(dropna=False) == 1
-            ].tolist(),
-            "unique_values": df.nunique(dropna=False).to_dict(),
-        }
-
-        return profile
