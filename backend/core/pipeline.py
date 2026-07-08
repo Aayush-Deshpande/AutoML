@@ -75,6 +75,11 @@ class AutoMLPipeline:
             task,
         )
 
+        if not leaderboard:
+            raise ValueError(
+                "No models were successfully trained."
+            )
+
         best_model = self.leaderboard.get_best_model(
             leaderboard,
         )

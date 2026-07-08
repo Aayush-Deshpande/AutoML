@@ -123,10 +123,16 @@ class Evaluator:
             task == "binary_classification"
             and y_prob is not None
         ):
-            metrics["roc_auc"] = roc_auc_score(
-                y_true,
-                y_prob,
-            )
+            try:
+
+                metrics["roc_auc"] = roc_auc_score(
+                    y_true,
+                    y_prob,
+                )
+
+            except ValueError:
+
+                metrics["roc_auc"] = None
 
         return metrics
 
