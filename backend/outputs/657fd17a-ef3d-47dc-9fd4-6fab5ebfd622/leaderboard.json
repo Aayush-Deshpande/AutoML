@@ -1,0 +1,156 @@
+[
+    {
+        "model_name": "Logistic Regression",
+        "model": "LogisticRegression(max_iter=1000, random_state=42)",
+        "score": 0.852286885707316,
+        "metrics": {
+            "accuracy": 0.8525,
+            "precision": 0.8568010265700482,
+            "recall": 0.8525,
+            "f1": 0.852286885707316,
+            "roc_auc": 0.8391244527829893
+        },
+        "training_time": 0.01044000000001688,
+        "predictions": "['N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N'\n 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y'\n 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N'\n 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N'\n 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'Y'\n 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'N'\n 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y'\n 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y'\n 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'Y'\n 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'N'\n 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y'\n 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N'\n 'Y' 'N' 'N' 'Y']"
+    },
+    {
+        "model_name": "Support Vector Machine",
+        "model": "SVC(probability=True, random_state=42)",
+        "score": 0.852286885707316,
+        "metrics": {
+            "accuracy": 0.8525,
+            "precision": 0.8568010265700482,
+            "recall": 0.8525,
+            "f1": 0.852286885707316,
+            "roc_auc": 0.8633896185115698
+        },
+        "training_time": 0.5651713999995991,
+        "predictions": "['N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N'\n 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y'\n 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N'\n 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N'\n 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'Y'\n 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'N'\n 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y'\n 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y'\n 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'Y'\n 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'N'\n 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y'\n 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N'\n 'Y' 'N' 'N' 'Y']"
+    },
+    {
+        "model_name": "Gaussian Naive Bayes",
+        "model": "GaussianNB()",
+        "score": 0.852286885707316,
+        "metrics": {
+            "accuracy": 0.8525,
+            "precision": 0.8568010265700482,
+            "recall": 0.8525,
+            "f1": 0.852286885707316,
+            "roc_auc": 0.8447029393370857
+        },
+        "training_time": 0.0028412000010575866,
+        "predictions": "['N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N'\n 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y'\n 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N'\n 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N'\n 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'Y'\n 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'N'\n 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y'\n 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y'\n 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'Y'\n 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'N'\n 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y'\n 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N'\n 'Y' 'N' 'N' 'Y']"
+    },
+    {
+        "model_name": "AdaBoost",
+        "model": "AdaBoostClassifier(random_state=42)",
+        "score": 0.8498123827392121,
+        "metrics": {
+            "accuracy": 0.85,
+            "precision": 0.8538969201759901,
+            "recall": 0.85,
+            "f1": 0.8498123827392121,
+            "roc_auc": 0.8444277673545967
+        },
+        "training_time": 0.28411289999894507,
+        "predictions": "['N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N'\n 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y'\n 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N'\n 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N'\n 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'Y'\n 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'N'\n 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y'\n 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'Y'\n 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'Y'\n 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'N'\n 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y'\n 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N'\n 'Y' 'N' 'N' 'Y']"
+    },
+    {
+        "model_name": "CatBoost",
+        "model": "<catboost.core.CatBoostClassifier object at 0x0000024DB79B1B80>",
+        "score": 0.8497522770493444,
+        "metrics": {
+            "accuracy": 0.85,
+            "precision": 0.8546813225554633,
+            "recall": 0.85,
+            "f1": 0.8497522770493444,
+            "roc_auc": 0.8531081926203877
+        },
+        "training_time": 3.005911300000662,
+        "predictions": "['N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N'\n 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y'\n 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N'\n 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N'\n 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'Y'\n 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'N'\n 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y'\n 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y'\n 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'Y'\n 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'N'\n 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y'\n 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N'\n 'Y' 'N' 'N' 'Y']"
+    },
+    {
+        "model_name": "Random Forest",
+        "model": "RandomForestClassifier(n_estimators=200, n_jobs=-1, random_state=42)",
+        "score": 0.8448604441776711,
+        "metrics": {
+            "accuracy": 0.845,
+            "precision": 0.8481565865782932,
+            "recall": 0.845,
+            "f1": 0.8448604441776711,
+            "roc_auc": 0.8539587242026266
+        },
+        "training_time": 0.560172399998919,
+        "predictions": "['N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N'\n 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y'\n 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N'\n 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N'\n 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'Y'\n 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'N'\n 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y'\n 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'N' 'N' 'N'\n 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y'\n 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'Y'\n 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'N'\n 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y'\n 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N'\n 'Y' 'N' 'N' 'Y']"
+    },
+    {
+        "model_name": "Gradient Boosting",
+        "model": "GradientBoostingClassifier(random_state=42)",
+        "score": 0.8448604441776711,
+        "metrics": {
+            "accuracy": 0.845,
+            "precision": 0.8481565865782932,
+            "recall": 0.845,
+            "f1": 0.8448604441776711,
+            "roc_auc": 0.8472295184490307
+        },
+        "training_time": 0.45173649999924237,
+        "predictions": "['N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N'\n 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y'\n 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N'\n 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N'\n 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'Y'\n 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'N'\n 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y'\n 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'Y'\n 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'Y'\n 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'N'\n 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y'\n 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N'\n 'Y' 'N' 'N' 'Y']"
+    },
+    {
+        "model_name": "K-Nearest Neighbors",
+        "model": "KNeighborsClassifier(n_jobs=-1)",
+        "score": 0.8247109898909017,
+        "metrics": {
+            "accuracy": 0.825,
+            "precision": 0.8294458714210168,
+            "recall": 0.825,
+            "f1": 0.8247109898909017,
+            "roc_auc": 0.8371607254534084
+        },
+        "training_time": 0.001968000000488246,
+        "predictions": "['N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N'\n 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y'\n 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'N' 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N'\n 'N' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N'\n 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'Y'\n 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'N'\n 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y'\n 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y'\n 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'Y'\n 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y'\n 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'Y' 'Y'\n 'N' 'N' 'Y' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y'\n 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N'\n 'Y' 'N' 'N' 'Y']"
+    },
+    {
+        "model_name": "LightGBM",
+        "model": "LGBMClassifier(n_estimators=200, n_jobs=-1, random_state=42, verbose=-1)",
+        "score": 0.82248779679873,
+        "metrics": {
+            "accuracy": 0.8225,
+            "precision": 0.8237207236512861,
+            "recall": 0.8225,
+            "f1": 0.82248779679873,
+            "roc_auc": 0.8546341463414633
+        },
+        "training_time": 0.2594153999998525,
+        "predictions": "['N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y'\n 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y'\n 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N'\n 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N'\n 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y'\n 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'N'\n 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y'\n 'N' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y'\n 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'Y'\n 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'N'\n 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y'\n 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N'\n 'Y' 'N' 'N' 'Y']"
+    },
+    {
+        "model_name": "Extra Trees",
+        "model": "ExtraTreesClassifier(n_estimators=200, n_jobs=-1, random_state=42)",
+        "score": 0.7925116719479496,
+        "metrics": {
+            "accuracy": 0.7925,
+            "precision": 0.7933260804321728,
+            "recall": 0.7925,
+            "f1": 0.7925116719479496,
+            "roc_auc": 0.8450531582238899
+        },
+        "training_time": 0.3648646000001463,
+        "predictions": "['Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N'\n 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y'\n 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'N'\n 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N'\n 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y'\n 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'Y'\n 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'N'\n 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y'\n 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N'\n 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'Y' 'Y'\n 'Y' 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'N' 'Y'\n 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'Y'\n 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y'\n 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'Y'\n 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y'\n 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N'\n 'Y' 'N' 'N' 'Y']"
+    },
+    {
+        "model_name": "Decision Tree",
+        "model": "DecisionTreeClassifier(random_state=42)",
+        "score": 0.7550245098039216,
+        "metrics": {
+            "accuracy": 0.755,
+            "precision": 0.7550867695231426,
+            "recall": 0.755,
+            "f1": 0.7550245098039216,
+            "roc_auc": 0.7549718574108818
+        },
+        "training_time": 0.015156299999944167,
+        "predictions": "['N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'N' 'N'\n 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y'\n 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'Y'\n 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N'\n 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'N'\n 'N' 'Y' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N'\n 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N'\n 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'N' 'N' 'N'\n 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'Y' 'N'\n 'N' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y'\n 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'N'\n 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y'\n 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'Y' 'Y'\n 'N' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y'\n 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'Y'\n 'Y' 'N' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'Y' 'Y'\n 'N' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'Y'\n 'Y' 'N' 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'N' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N'\n 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'Y' 'Y' 'N' 'N' 'Y' 'Y'\n 'N' 'Y' 'N' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'N' 'Y' 'Y' 'N' 'Y' 'Y'\n 'N' 'Y' 'Y' 'Y' 'Y' 'Y' 'N' 'Y' 'N' 'N' 'N' 'N' 'Y' 'N' 'Y' 'Y' 'Y' 'Y'\n 'Y' 'N' 'Y' 'Y']"
+    }
+]
